@@ -6,9 +6,10 @@
     <title>Sistema de Inventario - Católica School</title>
     <link rel="shortcut icon" href="./assets/icons/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="./assets/img/logo.png" alt="logo institucional">
     </header>
     <main></main>
