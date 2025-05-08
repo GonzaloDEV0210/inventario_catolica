@@ -10,9 +10,18 @@
 </head>
 <body>
     <header class="header">
-        <img src="./assets/img/logo.png" alt="logo institucional">
+        <img class="logo" src="./assets/img/logo.png" alt="logo institucional">
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <h1 class="title_inicio">Sistema de Inventario</h1>
+        <section class="section_inicio">
+            <img src="./assets/img/perfil.png" alt="Foto de Perfil" class="perfil">
+            <div class="container_inputs">
+                <input type="text" name="usuario" id="" class="input usuario" placeholder="Usuario">
+                <input type="password" name="contrasenia" id="" class="input contrasenia" placeholder="Contraseña">
+            </div>
+            <button type="submit" class="btn_enviar">Entrar</button>
+        </section>
+    </main>
 </body>
 </html>

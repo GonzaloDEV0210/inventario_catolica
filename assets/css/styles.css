@@ -27,14 +27,100 @@
 :root {
     --color_azul: #2459e4;
     --color_verde: #1eadc5;
+    --color_verde_hover: #32c3dd;
     --color_amarillo: #fbbf23;
     --color_blanco: #ffffff;
     --color_rojo: #E04242;
-    --color_verde: #078400;
+    --color_verde_oscuro: #078400;
     --color_gris: #A3A3A3;
+    --color_gris_fondo : #D9D9D9;
     --color_negro: #000000;
     --font_bree_bold: "Bree Bold";
     --font_bree_regular: "Bree Regular";
     --font_clanpro: "Clanpro News";
     --font_helvetica: "Helvetica";
+}
+
+* {
+    font-family: var(--font_bree_regular);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+.logo {
+    width: 100px;
+}
+
+main {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.title_inicio {
+    font-family: var(--font_helvetica);
+    color: var(--color_azul);
+    text-transform: uppercase;
+}
+
+.section_inicio {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.perfil {
+    width: 100px;
+}
+
+.container_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.input {
+    background-color: var(--color_gris_fondo);
+    color: var(--color_gris);
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 12px;
+    width: 100%;
+    outline-color: var(--color_gris);
+}
+
+.btn_enviar {
+    background-color: var(--color_verde);
+    color: #ffffff;
+    font-size: 15px;
+    width: 40%;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 0;
+    transition: .5s;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color_verde_hover);
+    }
 }
