@@ -45,7 +45,7 @@
     font-family: var(--font_bree_regular);
 }
 
-body {
+.body_centrar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ body {
     width: 100px;
 }
 
-main {
+.main_inicio {
     width: 520px;
     display: flex;
     flex-direction: column;

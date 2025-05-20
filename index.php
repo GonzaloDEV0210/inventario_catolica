@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
 </head>
-<body>
+<body class="body_centrar">
     <header class="header">
         <img class="logo" src="./assets/img/logo.png" alt="logo institucional">
     </header>
-    <main>
+    <main class="main_inicio">
         <h1 class="title_inicio">Sistema de Inventario</h1>
         <section class="section_inicio">
             <img src="./assets/img/perfil.png" alt="Foto de Perfil" class="perfil">

@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bree Bold";
+    src: url(../fonts/Bree\ Bold.otf);
+}
+
+@font-face {
+    font-family: "Bree Regular";
+    src: url(../fonts/Bree\ Regular.otf);
+}
+
+@font-face {
+    font-family: "Clanpro News";
+    src: url(../fonts/clanpro-news.ttf);
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(../fonts/HelveticaNeueLTCom-HvEx.ttf);
+}
+
+:root {
+    --color_azul: #2459e4;
+    --color_azul_hover: #4575f0;
+    --color_verde: #1eadc5;
+    --color_verde_hover: #32c3dd;
+    --color_amarillo: #fbbf23;
+    --color_blanco: #ffffff;
+    --color_rojo: #E04242;
+    --color_verde_oscuro: #078400;
+    --color_gris: #A3A3A3;
+    --color_gris_fondo : #D9D9D9;
+    --color_negro: #000000;
+    --font_bree_bold: "Bree Bold";
+    --font_bree_regular: "Bree Regular";
+    --font_clanpro: "Clanpro News";
+    --font_helvetica: "Helvetica";
+}
+
+.title_seleccion {
+ color: var(--color_azul);
+ text-transform: uppercase;
+ font-family: var(--font_helvetica);
+ margin-bottom: 50px;
+ text-align: center;
+}
+
+.button_opcion {
+    width: 230px;
+    height: 80px;
+    border-radius: 15px;
+    color: var(--color_blanco);
+    font-size: 20px;
+}
+
+.button_opcion_1 {
+    background-color: var(--color_azul);
+    border: 1px solid var(--color_azul);
+    transition: .5s;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color_azul_hover);
+    }
+}
+
+.button_opcion_2 {
+    background-color: var(--color_verde);
+    border: 1 px solid var(--color_verde);
+    transition: .5s;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color_verde_hover);
+    }
+}
+
+.section_seleccion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section_seleccion div {
+    display: flex;
+    gap: 30px;
+}
