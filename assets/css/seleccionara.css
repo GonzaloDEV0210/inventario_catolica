@@ -42,7 +42,7 @@
     --font_helvetica: "Helvetica";
 }
 
-.title_seleccion {
+.title {
  color: var(--color_azul);
  text-transform: uppercase;
  font-family: var(--font_helvetica);

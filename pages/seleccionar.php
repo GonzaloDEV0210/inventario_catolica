@@ -14,7 +14,7 @@
         <img class="logo" src="../assets/img/logo.png" alt="logo institucional">
     </header>
     <main>
-        <h2 class="title_seleccion">Seleccione una opción</h2>
+        <h1 class="title title_seleccion">Seleccione una opción</h1>
         <section class="section_seleccion">
             <div>
                 <button class="button_opcion button_opcion_1">Registrar Usuario</button>

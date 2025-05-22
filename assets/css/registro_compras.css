@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bree Bold";
+    src: url(../fonts/Bree\ Bold.otf);
+}
+
+@font-face {
+    font-family: "Bree Regular";
+    src: url(../fonts/Bree\ Regular.otf);
+}
+
+@font-face {
+    font-family: "Clanpro News";
+    src: url(../fonts/clanpro-news.ttf);
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(../fonts/HelveticaNeueLTCom-HvEx.ttf);
+}
+
+:root {
+    --color_azul: #2459e4;
+    --color_azul_hover: #4575f0;
+    --color_verde: #1eadc5;
+    --color_verde_hover: #32c3dd;
+    --color_amarillo: #fbbf23;
+    --color_blanco: #ffffff;
+    --color_rojo: #E04242;
+    --color_rojo_hover: #f75a5a;
+    --color_verde_oscuro: #078400;
+    --color_verde_oscuro_hover: #13a80b;
+    --color_gris: #757575;
+    --color_gris_fondo : #D9D9D9;
+    --color_gris_place : #9c9c9c;
+    --color_negro: #000000;
+    --font_bree_bold: "Bree Bold";
+    --font_bree_regular: "Bree Regular";
+    --font_clanpro: "Clanpro News";
+    --font_helvetica: "Helvetica";
+}
+
+* {
+    font-family: var(--font_bree_regular);
+}
+
+.header {
+    padding: 20px 0 20px 50px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 15px;
+}
+
+.container_inputs div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.container_inputs div label {
+    color: var(--color_gris);
+}
+
+.input_compras {
+    font-size: 15px;
+    width: 200px;
+    padding: 4px 5px 4px 5px;
+    color: var(--color_gris);
+    border: 2px solid var(--color_gris_place);
+    border-radius: 5px;
+    &::placeholder {
+        color: var(--color_gris_place);
+    }
+}
+
+.input_num {
+    width: 90px;
+}
+
+.input_file {
+    width: 230px;
+}
+
+.input_total {
+    background-color: var(--color_gris_fondo);
+    outline: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    color: var(--color_blanco);
+    gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button img {
+    width: 15px;
+}
+
+.button span {
+    font-size: 15px;
+}
+
+.button_registrar {
+    background-color: var(--color_verde);
+    border: 2px solid var(--color_verde);
+    transition: .5s;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color_verde_hover);
+    }
+}
+
+.button_volver {
+    background-color: var(--color_rojo);
+    border: 2px solid var(--color_rojo);
+    transition: .5s;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color_rojo_hover);
+    }
+}
+
+.button_reporte {
+    background-color: var(--color_verde_oscuro);
+    border: 2px solid var(--color_verde_oscuro);
+    transition: .5s;
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color_verde_oscuro_hover);
+    }
+}
+
+.container_buttons {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.container_buttons_left {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
