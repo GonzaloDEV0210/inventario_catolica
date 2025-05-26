@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--font_bree_regular);
 }
 
 @font-face {
@@ -43,10 +44,6 @@
     --font_bree_regular: "Bree Regular";
     --font_clanpro: "Clanpro News";
     --font_helvetica: "Helvetica";
-}
-
-* {
-    font-family: var(--font_bree_regular);
 }
 
 .header {
