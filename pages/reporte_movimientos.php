@@ -17,7 +17,7 @@
         <img class="logo" src="../assets/img/logo.png" alt="logo institucional">
     </header>
     <main>
-        <h1 class="title title_compras">Reporte de Reparaciones</h1>
+        <h1 class="title title_compras">Reporte de Movimientos</h1>
         <section class="container container_inputs">
             <div>
                 <label for="activo">Id Activo</label>

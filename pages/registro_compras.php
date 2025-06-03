@@ -117,10 +117,12 @@
                     <img src="../assets/icons/volver-flecha.png" alt="icono volver">
                 </button>
             </div>
-            <button class="button button_reporte">
-                <span>Reporte</span>
-                <img src="../assets/icons/archivo-excel.png" alt="icono excel">
-            </button>
+            <a href="../pages/reporte_compras.php" target="_blank" rel="noopener noreferrer">
+                <button class="button button_reporte">
+                    <span>Reporte</span>
+                    <img src="../assets/icons/archivo-excel.png" alt="icono excel">
+                </button>
+            </a>
         </section>
     </main>
 </body>
