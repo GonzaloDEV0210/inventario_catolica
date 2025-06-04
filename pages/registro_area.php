@@ -17,36 +17,38 @@
     </header>
     <main>
         <h1 class="title title_compras">Registrar Área</h1>
-        <section class="container container_inputs">
-            <div>
-                <label for="area">Nombre Área</label>
+        <form action="../process/procesar_area.php" method="post">
+            <section class="container container_inputs">
                 <div>
-                    <input type="text" id="area" placeholder="Escribir aquí..." class="input_compras">
+                    <label for="area">Nombre Área</label>
+                    <div>
+                        <input type="text" id="area" name="area" placeholder="Escribir aquí..." class="input_compras">
+                    </div>
                 </div>
-            </div>
-            <div class="container_textarea">
-                <label for="descripcion">Descripción</label>
-                <textarea name="descripcion" id="descripcion" placeholder="Escribir aquí..." class="input_compras text_area"></textarea>
-            </div>
-        </section>
-        <section class="container container_buttons">
-            <div class="container_buttons_left">
-                <button class="button button_registrar">
-                    <span>Registrar</span>
-                    <img src="../assets/icons/registrar.png" alt="icono registrar">
-                </button>
-                <button class="button button_volver">
-                    <span>Volver</span>
-                    <img src="../assets/icons/volver-flecha.png" alt="icono volver">
-                </button>
-            </div>
-            <a href="../pages/reporte_areas.php" target="_blank" rel="noopener noreferrer">
-                <button class="button button_reporte">
-                    <span>Reporte</span>
-                    <img src="../assets/icons/archivo-excel.png" alt="icono excel">
-                </button>
-            </a>
-        </section>
+                <div class="container_textarea">
+                    <label for="descripcion">Descripción</label>
+                    <textarea name="descripcion" id="descripcion" placeholder="Escribir aquí..." class="input_compras text_area"></textarea>
+                </div>
+            </section>
+            <section class="container container_buttons">
+                <div class="container_buttons_left">
+                    <button class="button button_registrar">
+                        <span>Registrar</span>
+                        <img src="../assets/icons/registrar.png" alt="icono registrar">
+                    </button>
+                    <button class="button button_volver">
+                        <span>Volver</span>
+                        <img src="../assets/icons/volver-flecha.png" alt="icono volver">
+                    </button>
+                </div>
+                <a href="../pages/reporte_areas.php" target="_blank" rel="noopener noreferrer">
+                    <button class="button button_reporte">
+                        <span>Reporte</span>
+                        <img src="../assets/icons/archivo-excel.png" alt="icono excel">
+                    </button>
+                </a>
+            </section>
+        </form>
     </main>
 </body>
 </html>
