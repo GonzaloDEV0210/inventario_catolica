@@ -17,32 +17,28 @@
         <h1 class="title title_seleccion">Seleccione una opción</h1>
         <section class="section_seleccion">
             <div>
-                <button class="button_opcion button_opcion_1">Registrar Usuario</button>
-                <button class="button_opcion button_opcion_2">Reporte Usuarios</button>
+                <a href="../pages/registro_compras.php" target="_blank" class="button_opcion button_opcion_1 style_seleccionar">Registrar Compras</a>
+                <a href="../pages/reporte_compras.php" target="_blank" class="button_opcion button_opcion_2 style_seleccionar">Reporte Compras</a>
             </div>
             <div>
-                <button class="button_opcion button_opcion_1">Registrar Compras</button>
-                <button class="button_opcion button_opcion_2">Reporte Compras</button>
+                <a href="../pages/solicitud_mantenimientos.php" target="_blank" class="button_opcion button_opcion_1 style_seleccionar">Solicitud de Mantenimiento</a>
+                <a href="../pages/reporte_mantenimientos.php" target="_blank" class="button_opcion button_opcion_2 style_seleccionar">Reporte de Mantenimientos</a>
             </div>
             <div>
-                <button class="button_opcion button_opcion_1">Solicitud de Mantenimiento</button>
-                <button class="button_opcion button_opcion_2">Reporte de Mantenimientos</button>
+                <a href="../pages/solicitud_reparaciones.php" target="_blank" class="button_opcion button_opcion_1 style_seleccionar">Solicitud de Reparación</a>
+                <a href="../pages/reporte_reparaciones.php" target="_blank" class="button_opcion button_opcion_2 style_seleccionar">Reporte de Reparaciones</a>
             </div>
             <div>
-                <button class="button_opcion button_opcion_1">Solicitud de Reparación</button>
-                <button class="button_opcion button_opcion_2">Reporte de Reparaciones</button>
+                <a href="../pages/registro_area.php" target="_blank" class="button_opcion button_opcion_1 style_seleccionar">Registro de Áreas de Trabajo</a>
+                <a href="../pages/reporte_areas.php" target="_blank" class="button_opcion button_opcion_2 style_seleccionar">Reporte de Áreas de Trabajo</a>
             </div>
             <div>
-                <button class="button_opcion button_opcion_1">Registro de Áreas de Trabajo</button>
-                <button class="button_opcion button_opcion_2">Reporte de Áreas de Trabajo</button>
+                <a href="../pages/registro_personal.php" target="_blank" class="button_opcion button_opcion_1 style_seleccionar">Registro de Personal</a>
+                <a href="../pages/reporte_personal.php" target="_blank" class="button_opcion button_opcion_2 style_seleccionar">Reporte de Personal</a>
             </div>
             <div>
-                <button class="button_opcion button_opcion_1">Registro de Personal</button>
-                <button class="button_opcion button_opcion_2">Reporte de Personal</button>
-            </div>
-            <div>
-                <button class="button_opcion button_opcion_1">Registrar Movimientos</button>
-                <button class="button_opcion button_opcion_2">Reporte de Movimientos</button>
+                <a href="../pages/registro_movimiento.php" target="_blank" class="button_opcion button_opcion_1 style_seleccionar">Registrar Movimientos</a>
+                <a href="../pages/reporte_movimientos.php" target="_blank" class="button_opcion button_opcion_2 style_seleccionar">Reporte de Movimientos</a>
             </div>
         </section>
     </main>

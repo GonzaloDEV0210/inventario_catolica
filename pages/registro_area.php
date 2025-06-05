@@ -22,7 +22,19 @@
                 <div>
                     <label for="area">Nombre Área</label>
                     <div>
-                        <input type="text" id="area" name="area" placeholder="Escribir aquí..." class="input_compras">
+                        <input type="text" id="area" name="nombre_area" placeholder="Escribir aquí..." class="input_compras">
+                    </div>
+                </div>
+                <div>
+                    <label for="nivel">Nivel</label>
+                    <div>
+                        <select name="nivel" id="nivel" class="input_compras">
+                            <option value="seleccione">Seleccione</option>
+                            <option value="Early_Years">Early Years</option>
+                            <option value="Elementary">Elementary</option>
+                            <option value="Middle">Middle & High</option>
+                            <option value="Oficinas">Oficinas</option>
+                        </select>
                     </div>
                 </div>
                 <div class="container_textarea">
@@ -32,14 +44,14 @@
             </section>
             <section class="container container_buttons">
                 <div class="container_buttons_left">
-                    <button class="button button_registrar">
+                    <button class="button button_registrar" type="submit">
                         <span>Registrar</span>
                         <img src="../assets/icons/registrar.png" alt="icono registrar">
                     </button>
-                    <button class="button button_volver">
-                        <span>Volver</span>
+                    <a href="../pages/seleccionar.php" class="button button_volver style_a">
+                        <span class="style_a">Volver</span>
                         <img src="../assets/icons/volver-flecha.png" alt="icono volver">
-                    </button>
+                    </a>
                 </div>
                 <a href="../pages/reporte_areas.php" target="_blank" rel="noopener noreferrer">
                     <button class="button button_reporte">

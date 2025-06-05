@@ -87,4 +87,17 @@
 .section_seleccion div {
     display: flex;
     gap: 30px;
+    justify-content: center;
+}
+
+.style_a {
+    text-decoration: none;
+}
+
+.style_seleccionar {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
